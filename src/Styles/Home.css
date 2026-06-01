@@ -1,0 +1,43 @@
+/* Zoo image */
+.homeImg {
+  width: 60%;
+  max-width: 500px;
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Container of home buttons */
+.homeBtns {
+  margin-top: 20px;
+}
+
+/* Default home buttons (green buttons) */
+.homeBtns button {
+  margin: 15px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  background: #66bb6a;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover effect for home buttons */
+.homeBtns button:hover {
+  background: #388e3c;
+  transform: scale(1.05);
+}
+
+/* Special info button (orange) */
+.infoBtn {
+  background: #ff9800 !important;
+  color: white;
+}
+
+.infoBtn:hover {
+  background: #e68900 !important;
+  transform: scale(1.05);
+}

@@ -1,0 +1,28 @@
+/* Employees table */
+table {
+  margin: 30px auto;
+  border-collapse: collapse;
+  width: 70%;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Table header */
+th {
+  background: #2e7d32;
+  color: white;
+  padding: 12px;
+}
+
+/* Table cells */
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Hover effect for rows */
+tr:hover {
+  background: #f1f8e9;
+}

@@ -1,0 +1,68 @@
+button {
+  margin: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  background: #81c784;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover for animal buttons */
+button:hover {
+  background: #2e7d32;
+}
+
+/* Container for animals section */
+.section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+/* Animal cards */
+.card {
+  background: white;
+  width: 220px;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
+
+/* Hover effect on cards */
+.card:hover {
+  transform: translateY(-8px);
+}
+
+/* Animal images */
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 220px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  height: 220px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.card h3,
+.card p {
+  margin: 3px 0;
+}
+
+.card button {
+  margin-top: 6px;
+}
+
